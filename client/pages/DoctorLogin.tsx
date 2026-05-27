@@ -174,7 +174,8 @@ export default function DoctorLogin() {
                 </a>
               </div>
 
-              <Button type="submit" className="w-full bg-blue-600 hover:bg-blue-700" disabled={isLoading}>
+              {/* Sign In button hidden */}
+              {/* <Button type="submit" className="w-full bg-blue-600 hover:bg-blue-700" disabled={isLoading}>
                 {isLoading ? (
                   <>
                     <Loader2 className="mr-2 h-4 w-4 animate-spin" />
@@ -183,7 +184,7 @@ export default function DoctorLogin() {
                 ) : (
                   "Sign In to Dashboard"
                 )}
-              </Button>
+              </Button> */}
             </form>
 
             <div className="mt-6 text-center">
