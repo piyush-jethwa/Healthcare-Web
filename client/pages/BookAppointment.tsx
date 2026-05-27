@@ -96,11 +96,12 @@ export default function BookAppointment() {
               <span className="text-xl font-bold text-gray-900">VAIDYA AI</span>
             </Link>
             <div className="flex space-x-4">
-              <Link to="/patient/login">
+              {/* Login button hidden */}
+              {/* <Link to="/patient/login">
                 <Button variant="outline" size="sm">
                   Login
                 </Button>
-              </Link>
+              </Link> */}
               <Link to="/">
                 <Button size="sm">Home</Button>
               </Link>
@@ -386,13 +387,14 @@ export default function BookAppointment() {
 
               {/* Submit */}
               <div className="flex items-center justify-center pt-6">
-                <Button
+                {/* Book Appointment button hidden */}
+                {/* <Button
                   type="submit"
                   size="lg"
                   className="bg-purple-600 hover:bg-purple-700 px-8"
                 >
                   Book Appointment
-                </Button>
+                </Button> */}
               </div>
             </form>
           </CardContent>
