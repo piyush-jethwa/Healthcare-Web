@@ -26,7 +26,6 @@ import {
   Instagram,
   Linkedin,
   Stethoscope,
-  UserPlus,
   ClipboardList,
   CheckCircle,
   Bot,
@@ -211,16 +210,7 @@ export default function Index() {
                   Hospital Command Center
                 </Button>
               </Link>
-              <Link to="/doctor/login">
-                <Button variant="outline" size="sm">
-                  Doctor Login
-                </Button>
-              </Link>
-              <Link to="/patient/login">
-                <Button size="sm" className="bg-purple-600 hover:bg-purple-700">
-                  Patient Login
-                </Button>
-              </Link>
+
             </div>
           </div>
         </div>
@@ -250,14 +240,7 @@ export default function Index() {
                 booking, and 24/7 AI assistance for all your health needs.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
-                <Link to="/book-appointment">
-                  <Button
-                    size="lg"
-                    className="bg-purple-600 hover:bg-purple-700"
-                  >
-                    Book Appointment
-                  </Button>
-                </Link>
+
                 <a href="https://vaidya-llm-1.streamlit.app/" target="_blank" rel="noopener noreferrer">
                   <Button size="lg" variant="outline">
                     Check Symptoms
@@ -340,30 +323,12 @@ export default function Index() {
                   Quick Actions
                 </h3>
                 <div className="space-y-4">
-                  <Link to="/patient/login">
-                    <div className="flex items-center space-x-3 p-3 bg-purple-50 rounded-lg hover:bg-purple-100 transition-colors cursor-pointer">
-                      <UserPlus className="h-6 w-6 text-purple-600" />
-                      <span className="text-gray-700">Register as Patient</span>
-                    </div>
-                  </Link>
-                  <Link to="/book-appointment">
-                    <div className="flex items-center space-x-3 p-3 bg-blue-50 rounded-lg hover:bg-blue-100 transition-colors cursor-pointer">
-                      <Calendar className="h-6 w-6 text-blue-600" />
-                      <span className="text-gray-700">Book Appointment</span>
-                    </div>
-                  </Link>
                   <a href="https://ai-chatbot-personal.streamlit.app/" target="_blank" rel="noopener noreferrer">
                     <div className="flex items-center space-x-3 p-3 bg-green-50 rounded-lg hover:bg-green-100 transition-colors cursor-pointer">
                       <ClipboardList className="h-6 w-6 text-green-600" />
                       <span className="text-gray-700">Check Symptoms</span>
                     </div>
                   </a>
-                  <Link to="/doctor/login">
-                    <div className="flex items-center space-x-3 p-3 bg-orange-50 rounded-lg hover:bg-orange-100 transition-colors cursor-pointer">
-                      <Stethoscope className="h-6 w-6 text-orange-600" />
-                      <span className="text-gray-700">Doctor Portal</span>
-                    </div>
-                  </Link>
                 </div>
               </div>
             </div>

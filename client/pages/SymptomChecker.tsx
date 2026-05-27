@@ -122,9 +122,7 @@ export default function SymptomChecker() {
               <span className="text-xl font-bold text-gray-900">VAIDYA AI</span>
             </a>
             <div className="flex space-x-4">
-              <Link to="/book-appointment">
-                <Button variant="outline" size="sm">Book Appointment</Button>
-              </Link>
+
               <Link to="/">
                 <Button size="sm">Home</Button>
               </Link>
@@ -296,11 +294,6 @@ export default function SymptomChecker() {
                   for proper diagnosis and treatment.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-3">
-                  <Link to="/book-appointment" className="flex-1">
-                    <Button className="w-full bg-purple-600 hover:bg-purple-700">
-                      Book Appointment
-                    </Button>
-                  </Link>
                   <Button variant="outline" className="flex-1" onClick={() => setAnalysis(null)}>
                     Check Other Symptoms
                   </Button>
