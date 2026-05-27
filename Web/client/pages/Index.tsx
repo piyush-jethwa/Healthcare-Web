@@ -137,16 +137,16 @@ export default function Index() {
               </a>
             </div>
             <div className="flex space-x-2">
-              <Link to="/hospital-command-center">
-                <Button variant="outline" size="sm" className="border-indigo-600 text-indigo-600 hover:bg-indigo-600 hover:text-white">
+              {/* <Link to="/hospital-command-center"> */}
+                {/* <Button variant="outline" size="sm" className="border-indigo-600 text-indigo-600 hover:bg-indigo-600 hover:text-white">
                   <Building2 className="h-4 w-4 mr-1" />
-                  Hospital Command Center
+                  Hospital Command Center */}
                 </Button>
               </Link>
-              <Link to="/doctor/login">
+              {/* <Link to="/doctor/login">
                 <Button variant="outline" size="sm">
-                  Doctor Login
-                </Button>
+                  Doctor Login */}
+                {/* </Button> */}
               </Link>
               <Link to="/patient/login">
                 <Button size="sm" className="bg-purple-600 hover:bg-purple-700">
@@ -182,15 +182,15 @@ export default function Index() {
                 booking, and 24/7 AI assistance for all your health needs.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
-                <Link to="/book-appointment">
+                {/* <Link to="/book-appointment">
                   <Button
                     size="lg"
                     className="bg-purple-600 hover:bg-purple-700"
-                  >
-                    Book Appointment
+                  > */}
+                    {/* Book Appointment
                   </Button>
                 </Link>
-                <a href="https://vaidya-llm-1.streamlit.app/" target="_blank" rel="noopener noreferrer">
+                <a href="https://vaidya-llm-1.streamlit.app/" target="_blank" rel="noopener noreferrer"> */}
                   <Button size="lg" variant="outline">
                     Check Symptoms
                   </Button>
@@ -232,8 +232,8 @@ export default function Index() {
                       <span className="text-gray-700">Register as Patient</span>
                     </div>
                   </Link>
-                  <Link to="/book-appointment">
-                    <div className="flex items-center space-x-3 p-3 bg-blue-50 rounded-lg hover:bg-blue-100 transition-colors cursor-pointer">
+                  {/* <Link to="/book-appointment">
+                    <div className="flex items-center space-x-3 p-3 bg-blue-50 rounded-lg hover:bg-blue-100 transition-colors cursor-pointer"> */}
                       <Calendar className="h-6 w-6 text-blue-600" />
                       <span className="text-gray-700">Book Appointment</span>
                     </div>
@@ -244,7 +244,7 @@ export default function Index() {
                       <span className="text-gray-700">Check Symptoms</span>
                     </div>
                   </a>
-                  <Link to="/doctor/login">
+                  {/* <Link to="/doctor/login"> */}
                     <div className="flex items-center space-x-3 p-3 bg-orange-50 rounded-lg hover:bg-orange-100 transition-colors cursor-pointer">
                       <Stethoscope className="h-6 w-6 text-orange-600" />
                       <span className="text-gray-700">Doctor Portal</span>
