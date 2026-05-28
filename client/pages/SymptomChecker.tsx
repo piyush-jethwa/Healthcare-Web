@@ -6,7 +6,7 @@ import { Badge } from "@/components/ui/badge";
 import { Heart, Brain, AlertTriangle, Clock, CheckCircle, Calendar } from "lucide-react";
 import { Link } from "react-router-dom";
 
-const SYMPTOM_CHECKER_URL = "https://vaidya-llm-1.streamlit.app/";
+const SYMPTOM_CHECKER_URL = "https://ai-chatbot-personal.streamlit.app/";
 
 export default function SymptomChecker() {
   const [symptoms, setSymptoms] = useState("");
