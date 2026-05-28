@@ -64,12 +64,7 @@ const AdvisoriesPage = () => {
                 </p>
               </div>
             </div>
-            <Link to="/hospital-command-center">
-              <Button variant="outline">
-                <Heart className="h-4 w-4 mr-2" />
-                Back
-              </Button>
-            </Link>
+
           </div>
         </div>
       </header>

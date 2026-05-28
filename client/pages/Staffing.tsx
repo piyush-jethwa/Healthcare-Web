@@ -1,4 +1,4 @@
-import { useState } from "react";
+ import { useState } from "react";
 import { useToast } from "@/hooks/use-toast";
 import { StaffingForm } from "@/components/StaffingForm";
 import { StaffingPlan } from "@/components/StaffingPlan";
@@ -63,12 +63,7 @@ const StaffingPage = () => {
                 </p>
               </div>
             </div>
-            <Link to="/hospital-command-center">
-              <Button variant="outline">
-                <Heart className="h-4 w-4 mr-2" />
-                Back
-              </Button>
-            </Link>
+
           </div>
         </div>
       </header>

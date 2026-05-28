@@ -14,7 +14,7 @@ import DoctorDashboard from "./pages/DoctorDashboard";
 import PatientDashboard from "./pages/PatientDashboard";
 import BookAppointment from "./pages/BookAppointment";
 import SymptomChecker from "./pages/SymptomChecker";
-import HospitalCommandCenter from "./pages/HospitalCommandCenter";
+
 import SurgeForecastPage from "./pages/SurgeForecast";
 import StaffingPage from "./pages/Staffing";
 import SupplyPage from "./pages/Supply";
@@ -47,7 +47,7 @@ const App = () => (
           <Route path="/patient/dashboard" element={<PatientDashboard />} />
           <Route path="/book-appointment" element={<BookAppointment />} />
           <Route path="/symptom-checker" element={<SymptomChecker />} />
-          <Route path="/hospital-command-center" element={<HospitalCommandCenter />} />
+
           <Route path="/surge-forecast" element={<SurgeForecastPage />} />
           <Route path="/staffing" element={<StaffingPage />} />
           <Route path="/supply" element={<SupplyPage />} />
