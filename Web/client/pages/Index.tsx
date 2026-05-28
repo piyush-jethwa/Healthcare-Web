@@ -241,12 +241,12 @@ export default function Index() {
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
 
-                <a href="https://vaidya-llm-1.streamlit.app/" target="_blank" rel="noopener noreferrer">
+                <a href="https://ai-chatbot-personal.streamlit.app/" target="_blank" rel="noopener noreferrer">
                   <Button size="lg" variant="outline">
                     Check Symptoms
                   </Button>
                 </a>
-                <a href="https://vaidya-llm-1.streamlit.app/" target="_blank" rel="noopener noreferrer">
+                <a href="https://ai-chatbot-personal.streamlit.app/" target="_blank" rel="noopener noreferrer">
                   <Button size="lg" variant="outline" className="border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white">
                     Check Report/X-ray
                   </Button>
