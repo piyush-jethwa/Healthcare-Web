@@ -236,7 +236,7 @@ export default function Index() {
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
 
-                <a href="https://vaidya-llm-1.streamlit.app/" target="_blank" rel="noopener noreferrer">
+                <a href="https://ai-chatbot-personal.streamlit.app/" target="_blank" rel="noopener noreferrer">
                   <Button size="lg" variant="outline">
                     Check Symptoms
                   </Button>
